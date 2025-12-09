@@ -1,7 +1,11 @@
-const Ordercard = ({ Order }) => {
-  console.log(Order);
+const Ordercard = ({ Order, handleOrder }) => {
+  // console.log(Order);
+
   return (
-    <div className="bg-white rounded-xl p-4 shadow-xl gap-4">
+    <div
+      onClick={() => handleOrder(Order)}
+      className="bg-white rounded-sm p-4 shadow-xl gap-4"
+    >
       <div className="flex-1">
         {/* Title + Status */}
         <div className="flex justify-between items-center gap-2">

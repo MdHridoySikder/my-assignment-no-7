@@ -1,19 +1,36 @@
-const States = () => {
+const States = ({ inProgress, ResolvedTaskTotal }) => {
   return (
-    <div>
-      <div className="w-11/12 mx-auto py-10 grid grid-cols-1 lg:grid-cols-2 gap-5">
-        {/* total progress */}
-        <div className="bg-gradient-to-br from-purple-600 to-fuchsia-300 mt-2 rounded-xl p-5 py-10 text-white">
-          <div className="text-xl text-center">In-Progress</div>
-          <div className="text-4xl text-center">0</div>
+    <div className="flex flex-col md:flex-row justify-around mt-20 container mx-auto gap-6 px-10 relative">
+      <div className="bg-gradient-to-bl from-[#632EE3] to-[#9F62F2] rounded-xl relative">
+        <div className=" absolute top-15 bottom left-5 right-5 text-center">
+          <span className="text-white">In-Progress</span>
+          <br />
+          <span className="text-white text-4xl font-bold">{inProgress}</span>
         </div>
-
-        {/* 2nd cart */}
-        <div>
-          <div className=" bg-gradient-to-tr  from-green-300 to-green-600 mt-2 rounded-xl p-5 py-10 text-white">
-            <div className="text-xl text-center">Resolved</div>
-            <div className="text-4xl text-center">0</div>
-          </div>
+        <div className="flex gap-25">
+          <img className="w-60 h-55" src={"/public/vector1.png"} alt="" />
+          <img
+            className="scale-x-[-1] w-60 h-55"
+            src={"/public/vector1.png"}
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="bg-gradient-to-bl from-[#54CF68] to-[#00827A] rounded-xl relative">
+        <div className=" absolute top-15 bottom left-5 right-5 text-center">
+          <span className="text-white">Resolved</span>
+          <br />
+          <span className="text-white text-4xl font-bold">
+            {ResolvedTaskTotal}
+          </span>
+        </div>
+        <div className="flex gap-25 ">
+          <img className="w-60 h-55" src={"/public/vector1.png"} alt="" />
+          <img
+            className="scale-x-[-1] w-60 h-55"
+            src={"/public/vector1.png"}
+            alt=""
+          />
         </div>
       </div>
     </div>
