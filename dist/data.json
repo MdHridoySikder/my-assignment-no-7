@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is not receiving 2FA codes on their registered phone number.",
+    "customer": "John Smith",
+    "priority1": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/15/2024"
+  },
+  {
+    "id": "1002",
+    "title": "Payment Failure - Transaction Declined",
+    "description": "Customer attempted to make a payment but the transaction keeps getting declined. Card ...",
+    "customer": "Alice Johnson",
+    "priority2": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2/03/2024"
+  },
+  {
+    "id": "1003",
+    "title": "Account Suspended - Unauthorized Activity",
+    "description": "Customer noticed suspicious activity on their account and it has been temporarily ...",
+    "customer": "Michael Brown",
+    "priority1": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "3/12/2024"
+  },
+  {
+    "id": "1004",
+    "title": "Refund Request - Incorrect Billing",
+    "description": "Customer was charged incorrectly for a subscription and requests a full refund. They ...",
+    "customer": "Emily Davis",
+    "priority3": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "4/22/2024"
+  },
+  {
+    "id": "1005",
+    "title": "Feature Request - Dark Mode",
+    "description": "Customer is requesting a dark mode option in the app for better usability during night time.",
+    "customer": "David Wilson",
+    "priority3": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "5/05/2024"
+  },
+  {
+    "id": "1006",
+    "title": "App Crash - On Launch",
+    "description": "Customer reports that the app crashes immediately upon launching on their Android device.",
+    "customer": "Sophia Martinez",
+    "priority1": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "6/10/2024"
+  },
+  {
+    "id": "1007",
+    "title": "Unable to Update Profile",
+    "description": "Customer cannot update their profile information. Changes are not being saved.",
+    "customer": "James Anderson",
+    "priority2": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "7/18/2024"
+  },
+  {
+    "id": "1008",
+    "title": "Unable to Update Profile Picture",
+    "description": "Customer's order has been delayed for more than a week. They request an update on delivery status.",
+    "customer": "Olivia Thomas",
+    "priority1": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "8/02/2024"
+  },
+  {
+    "id": "1009",
+    "title": "Incorrect Product Received",
+    "description": "Customer received a wrong product in their recent order. They request an exchange.",
+    "customer": "Liam Jackson",
+    "priority2": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "9/14/2024"
+  },
+  {
+    "id": "1010",
+    "title": "Subscription Cancellation Issue",
+    "description": "Customer tried to cancel their subscription but keeps getting an error message.",
+    "customer": "Emma White",
+    "priority2": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "10/30/2024"
+  }
+]
