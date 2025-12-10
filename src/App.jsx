@@ -4,12 +4,11 @@ import Footer from "./assets/components/Footer";
 import Navbar from "./assets/components/Navbar";
 import { ToastContainer } from "react-toastify";
 
-const loadData = () => fetch("/public/data.json").then((res) => res.json());
+const loadData = () => fetch("/data.json").then((res) => res.json());
+const dataPromise = loadData();
+// console.log(dataPromise);
 
 function App() {
-  const dataPromise = loadData();
-  // console.log(dataPromise);
-
   return (
     <>
       <div>

@@ -8,12 +8,8 @@ const States = ({ inProgress, ResolvedTaskTotal }) => {
           <span className="text-white text-4xl font-bold">{inProgress}</span>
         </div>
         <div className="flex gap-25">
-          <img className="w-60 h-55" src={"/public/vector1.png"} alt="" />
-          <img
-            className="scale-x-[-1] w-60 h-55"
-            src={"/public/vector1.png"}
-            alt=""
-          />
+          <img className="w-60 h-55" src={"/vector1.png"} alt="" />
+          <img className="scale-x-[-1] w-60 h-55" src={"/vector1.png"} alt="" />
         </div>
       </div>
       <div className="bg-gradient-to-bl from-[#54CF68] to-[#00827A] rounded-xl relative">
@@ -25,12 +21,8 @@ const States = ({ inProgress, ResolvedTaskTotal }) => {
           </span>
         </div>
         <div className="flex gap-25 ">
-          <img className="w-60 h-55" src={"/public/vector1.png"} alt="" />
-          <img
-            className="scale-x-[-1] w-60 h-55"
-            src={"/public/vector1.png"}
-            alt=""
-          />
+          <img className="w-60 h-55" src={"/vector1.png"} alt="" />
+          <img className="scale-x-[-1] w-60 h-55" src={"/vector1.png"} alt="" />
         </div>
       </div>
     </div>
