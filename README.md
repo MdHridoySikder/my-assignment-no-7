@@ -1,6 +1,6 @@
-## Live Link =>
+## Live Link => https://assignment0777.netlify.app/
 
-## Git Hub Repo. Link =>
+## Git Hub Repo. Link => https://github.com/MdHridoySikder/my-assignment-no-7.git
 
 1. **What is JSX, and why is it used?**
    JSX is method to write HTML inside JavaScript. It used in react to describe the UI structure in a readable way and combine JavaScript logic with HTML layout.
