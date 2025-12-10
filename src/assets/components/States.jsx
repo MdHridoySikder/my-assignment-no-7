@@ -1,6 +1,6 @@
 const States = ({ inProgress, ResolvedTaskTotal }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-around mt-20 container mx-auto gap-6 px-10 relative">
+    <div className=" flex flex-col md:flex-row justify-around mt-20 container mx-auto gap-5 px-13 relative">
       <div className="bg-gradient-to-bl from-[#632EE3] to-[#9F62F2] rounded-xl relative">
         <div className=" absolute top-15 bottom left-5 right-5 text-center">
           <span className="text-white">In-Progress</span>
